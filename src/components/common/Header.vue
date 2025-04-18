@@ -5,7 +5,7 @@
       <div class="flex items-center justify-between">
         <a class="text-lg font-semibold" href="#" aria-label="Brand">
           
-<img src="https://github.com/c1bles/nominal-reader/blob/36ca3602fcee6d58a7633e63131ab5829f058dd9/public/text-logo.png" alt="Logo ^v^" width="80" />
+<img src="https://files.catbox.moe/vmh0wb.png" alt="Logo ^v^" width="80" />
 
         
         </a>
