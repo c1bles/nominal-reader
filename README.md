@@ -2,9 +2,9 @@
 
 # Nomimal reader
 
-![Minimal Reader screenshot](https://www.minimalreader.xyz/screenshot.png)
+![Nominal Reader screenshot](https://nominal-reader.vercel.app/screenshot.png)
 
-Fork of Minimal Reader made to add more features. Browser-based ebook reader with an emphasis on a clean reading experience. 
+Fork of Minimal Reader set to add more features. Browser-based ebook reader with an emphasis on a clean reading experience. 
 
 ## Features
 
@@ -12,7 +12,7 @@ Fork of Minimal Reader made to add more features. Browser-based ebook reader wit
 * Remembers your last location in the book.
 * Private – your books and reading history are stored locally in your browser cache, no other tracking.
 * Optimised for mobile.
-* Dark mode.
+* Dark and White mode.
 
 **Limitations:**
 * Only works with DRM-free epubs.
