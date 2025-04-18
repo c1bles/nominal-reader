@@ -1,8 +1,10 @@
-# Minimal reader
+# Readme in WIP like always, please come back when the readme is completed!!
+
+# Nomimal reader
 
 ![Minimal Reader screenshot](https://www.minimalreader.xyz/screenshot.png)
 
-A browser-based ebook reader with an emphasis on a clean reading experience. 
+Fork of Minimal Reader made to add more features. Browser-based ebook reader with an emphasis on a clean reading experience. 
 
 ## Features
 
