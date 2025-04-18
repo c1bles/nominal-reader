@@ -5,7 +5,7 @@
       <div class="flex items-center justify-between">
         <a class="text-lg font-semibold" href="#" aria-label="Brand">
           
-<img src="https://files.catbox.moe/dnmc3p.png" alt="Logo ^v^" width="80" />
+<img src="https://files.catbox.moe/vmh0wb.png" alt="Logo ^v^" width="80" />
 
         
         </a>
