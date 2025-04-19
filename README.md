@@ -16,7 +16,12 @@ Fork of Minimal Reader set to add more features. Browser-based ebook reader with
 
 **Limitations:**
 * Only works with DRM-free epubs.
-* Doesn't work well with ebooks where every page is an image.
+* Doesn't work well with ebooks where every page is an image. (aka. comics)
+
+**Upcoming:**
+* Mode switcher
+* Language switcher
+* More customization
 
 Built with Vue and epub.js.
 
