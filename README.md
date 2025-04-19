@@ -1,5 +1,3 @@
-# Readme in WIP like always, please come back when the readme is completed!!
-
 # Nomimal reader
 
 ![Nominal Reader screenshot](https://nominal-reader.vercel.app/screenshot.png)
