@@ -2,7 +2,7 @@
     <img src="https://nominal-reader.vercel.app/logo-handrawn.png" alt="Nominal Icon" height="142px" width="142px" />
 </a>
 
-# Nomimal reader
+# Nominal reader
 [![License: Apache-2.0](https://img.shields.io/github/license/c1bles/nominal-reader?labelColor=27303D&color=0877d2)](/LICENSE)
 [![Discord: Nominal](https://img.shields.io/discord/1363085866670751854.svg?label=&labelColor=6A7EC2&color=7389D8&logo=discord&logoColor=FFFFFF)](https://discord.gg/nqzP6VKwMs)
 
