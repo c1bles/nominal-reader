@@ -3,7 +3,7 @@
 </a>
 
 # Nominal reader
-[![License: Apache-2.0](https://img.shields.io/github/License/c1bles/nominal-reader?labelColor=27303D&color=0877d2)](/LICENSE)
+[![License: Apache-2.0](https://img.shields.io/github/license/c1bles/nominal-reader?labelColor=27303D&color=0877d2)](/LICENSE)
 [![Discord: Nominal](https://img.shields.io/discord/1363085866670751854.svg?label=&labelColor=6A7EC2&color=7389D8&logo=discord&logoColor=FFFFFF)](https://discord.gg/nqzP6VKwMs)
 
 Fork of Minimal Reader set to add more features. Browser-based ebook reader with an emphasis on a clean reading experience.
