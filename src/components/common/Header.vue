@@ -5,7 +5,7 @@
       <div class="flex items-center justify-between">
         <a class="text-lg font-semibold" href="#" aria-label="Brand">
           
-<img src="https://nominal-reader.vercel.app/text-logo.png" items-center alt="Nominal Reader" width="80" />
+<img src="https://nominal-reader.vercel.app/text-logo.png" items-center alt="Nominal Reader" width="80" class="centered-image" />
 
         
         </a>
