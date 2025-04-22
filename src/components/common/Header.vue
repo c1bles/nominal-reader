@@ -7,6 +7,13 @@
 <div style="text-align: center;">
   <img src="https://nominal-reader.vercel.app/text-logo.png" alt="Nominal Reader" width="80" />
 </div>
+</template>
+
+<script>
+export default {
+  name: 'Lgoo',
+};
+</script>
         
         </a>
         <div @click="triggerUpload" style="cursor: pointer;" class="upload-button flex items-center font-medium text-gray-500 hover:text-blue-600 sm:ms-4  sm:ps-6 dark:border-neutral-700 dark:text-neutral-400 dark:hover:text-blue-500">
