@@ -34,6 +34,13 @@
 
     <AlertToast v-if="showAlert" :message="alertMessage" @close="showAlert = false" />
   </div>
+  <div :class="theme">
+    <button @click="toggleTheme">
+      Switch to {{ theme === 'dark' ? 'Light' : 'Dark' }} Mode
+    </button>
+    <h1>Welcome to HomeView</h1>
+    <!-- Your existing content -->
+  </div>
 </template>
 
 <script>
@@ -43,6 +50,7 @@ import AppHeader from '@/components/common/Header.vue'
 import AppFooter from '@/components/common/Footer.vue'
 import BookThumbnail from '@/components/common/BookThumbnail.vue'
 import AlertToast from '@/components/common/AlertToast.vue'
+import { ref } from 'vue';
 
 export default {
   name: 'HomeView',
@@ -52,6 +60,21 @@ export default {
     BookThumbnail,
     AlertToast
   },
+  setup() {
+    // Reactive theme state
+    const theme = ref(localStorage.getItem('theme') || 'light');
+
+    // Toggle theme and save to localStorage
+    const toggleTheme = () => {
+      theme.value = theme.value === 'light' ? 'dark' : 'light';
+      localStorage.setItem('theme', theme.value);
+      document.body.className = theme.value; // Apply theme to body
+    };
+
+    // Apply theme on load
+    document.body.className = theme.value;
+
+
   data() {
     return {
       books: [],
@@ -62,8 +85,11 @@ export default {
       ],
       showAlert: false,
       alertMessage: ''
+      theme,
+      toggleTheme,
     }
   },
+</script>
   methods: {
     triggerUpload() {
       document.getElementById('bookInput').click();
@@ -167,8 +193,17 @@ export default {
     }
   }
 }
-</script>
 
-<style scoped>
-/* Styles remain unchanged */
+<style>
+/* Light mode styles */
+.light {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+/* Dark mode styles */
+.dark {
+  background-color: #000000;
+  color: #ffffff;
+}
 </style>
