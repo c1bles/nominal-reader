@@ -3,19 +3,28 @@
 </a>
 
 # Nominal reader
-[![License: Apache-2.0](https://img.shields.io/github/license/c1bles/nominal-reader?labelColor=27303D&color=0877d2)](/LICENSE)
+[![License: BSD 3-Clause License](https://img.shields.io/github/license/c1bles/nominal-reader?labelColor=27303D&color=0877d2)](/LICENSE)
 [![Discord: Nominal](https://img.shields.io/discord/1363085866670751854.svg?label=&labelColor=6A7EC2&color=7389D8&logo=discord&logoColor=FFFFFF)](https://discord.gg/nqzP6VKwMs)
 
 Fork of Minimal Reader set to add more features. Browser-based ebook reader with an emphasis on a clean reading experience.
 ![Nominal Reader screenshot](https://nominal-reader.vercel.app/screenshot.png) </div> <div align="center">
 
 ## Features </div>
+<details closed="">
+    <summary><b>Original Features</b></summary>
 
 * Decent typography – like a reader mode for ebooks.
 * Remembers your last location in the book.
 * Private – your books and reading history are stored locally in your browser cache, no other tracking.
 * Optimised for mobile.
-* Dark and White mode.
+* Dark mode.
+</details>
+
+<details open="">
+    <summary><b>From Nominal</b></summary>
+
+* No exclusive features yet, in the work.
+</details>
 
 **Limitations:**
 * Only works with DRM-free epubs.
@@ -23,8 +32,8 @@ Fork of Minimal Reader set to add more features. Browser-based ebook reader with
 
 **Upcoming:**
 * Mode switcher
-* Language switcher
 * More customization
+* And more
 
 Built with Vue and epub.js. <div align="center">
 
