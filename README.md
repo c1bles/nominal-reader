@@ -23,7 +23,8 @@ Fork of Minimal Reader set to add more features. Browser-based ebook reader with
 <details open="">
     <summary><b>From Nominal</b></summary>
 
-* No exclusive features yet, in the work.
+* Scrollable TOC
+* And more to come!
 </details>
 
 **Limitations:**
