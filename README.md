@@ -1,4 +1,4 @@
-c<div align="center"> <a href="https://github.com/c1bles/nominal-reader">
+<div align="center"> <a href="https://github.com/c1bles/nominal-reader">
     <img src="https://nominal-reader.vercel.app/logo-handrawn.png" alt="Nominal Icon" height="142px" width="142px" />
 </a>
 
