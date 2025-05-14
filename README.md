@@ -1,4 +1,4 @@
-<div align="center"> <a href="https://github.com/c1bles/nominal-reader">
+c<div align="center"> <a href="https://github.com/c1bles/nominal-reader">
     <img src="https://nominal-reader.vercel.app/logo-handrawn.png" alt="Nominal Icon" height="142px" width="142px" />
 </a>
 
@@ -7,7 +7,7 @@
 [![Discord: Nominal](https://img.shields.io/discord/1363085866670751854.svg?label=&labelColor=6A7EC2&color=7389D8&logo=discord&logoColor=FFFFFF)](https://discord.gg/nqzP6VKwMs)
 
 Fork of Minimal Reader set to add more features. Browser-based ebook reader with an emphasis on a clean reading experience.
-![Nominal Reader screenshot](https://nominal-reader.vercel.app/screenshot.png) </div> <div align="center">
+![Nominal Reader screenshot](https://nominal-reader.vercel.app/screenshot.gif) </div> <div align="center">
 
 ## Features </div>
 <details closed="">
