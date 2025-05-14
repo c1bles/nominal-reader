@@ -28,8 +28,18 @@
         opacity: 0;
     }
 
-    /* Custom styles for the TOC */
-    .toc-container {
-        @apply p-4 max-h-96 overflow-y-auto; /* Tailwind utility classes */
-    }
+  #hs-overlay-right {
+    @apply flex flex-col;
+    height: 100vh; /* Full viewport height */
+  }
+  /* Header section stays fixed height */
+  #hs-overlay-right > div:first-child {
+    @apply flex-shrink-0; /* Prevent shrinking */
+  }
+  /* TOC container grows to fill remaining space and scrolls */
+  .toc-container {
+    @apply flex-grow overflow-y-auto p-4;
+    /* Remove max-h-96 to prevent extra bottom space */
+  }
+    
 }
