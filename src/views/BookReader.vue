@@ -1,10 +1,11 @@
 <template>
-    <header class=" sticky top-0 z-[3000] w-full bg-white/90  backdrop-blur-md text-sm py-5   dark:bg-black/80">
+  <header class="{'dark:bg-black/80': isDarkMode, 'bg-white/90': !isDarkMode}" class="sticky top-0 z-[3000] w-full backdrop-blur-md text-sm py-5">
     <nav class="flex items-center justify-between px-5" aria-label="Global">
       <div class="flex items-center gap-4">
 
         <button @click="goHome" class="bg-[url('assets/img/grid.svg')] dark:bg-[url('assets/img/grid-white.svg')] bg-no-repeat text-transparent w-[20px] h-[20px]">Home</button>
         <div id="book-title" class="font-bold text-lg"></div>
+        
 
       </div>
       <button class="toc bg-[url('assets/img/list.svg')] dark:bg-[url('assets/img/list-white.svg')] bg-no-repeat text-transparent w-[20px] h-[20px]" data-hs-overlay="#hs-overlay-right"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
@@ -12,6 +13,13 @@
 </svg>
 </button>    
 
+<select @change="changeFont($event.target.value)" class="font-selector">
+  <option value="default">Default</option>
+  <option value="serif">Serif</option>
+  <option value="sans-serif">Sans Serif</option>
+  <option value="monospace">Monospace</option>
+</select>
+        
     </nav>
 
   </header>
@@ -76,6 +84,7 @@ export default {
       toc: [],
       resizeTimeout: null,
       isResizing: false,
+      currentFont: 'default', // New property to track the current font
 
     }
   },
@@ -123,6 +132,24 @@ export default {
       }
     },
 
+  changeFont(font) {
+    this.currentFont = font;
+    const doc = this.rendition.getContents().document;
+    doc.body.style.fontFamily = this.getFontFamily(font);
+  },
+  getFontFamily(font) {
+    switch (font) {
+      case 'serif':
+        return 'serif';
+      case 'sans-serif':
+        return 'Arial, sans-serif';
+      case 'monospace':
+        return '"Courier New", monospace';
+      default:
+        return 'Georgia, serif'; // Default font
+    }
+  },
+      
     defineHooks() {
       this.book.rendition.hooks.content.register((contents) => {
         let doc = contents.document;
